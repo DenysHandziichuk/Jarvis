@@ -1,11 +1,10 @@
-# 🤖💻 Jarvis
-Jarvis is a Python application that simulates a basic assistant called "Jarvis" using PyQt6. Jarvis can respond to voice commands and provide various information. It is designed to be a simple and intuitive virtual assistant.
+# 🔥 Jarvis
+Jarvis is a Python application that simulates a basic assistant using PyQt6. Jarvis can respond to voice commands and provide various information. It is designed to be a simple and intuitive virtual assistant.
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-
-
-
-## 📝 Key Features
+---
+## ✨ Key Features
 * 🗣️ Voice recognition for commands
 * 💬 Responds with text-to-speech
 * ☁️ Provides the current weather in Toronto
@@ -14,9 +13,11 @@ Jarvis is a Python application that simulates a basic assistant called "Jarvis" 
 
 ---
 ## 🧭 Simple Workflow
-1. Install the required libraries using pip
-2. Run the application using Python
-3. Use voice commands to interact with Jarvis
+1. Open the Jarvis application
+2. Use voice commands to interact with Jarvis, such as asking for the current weather or time
+3. Jarvis will respond with the requested information using text-to-speech
+4. You can also ask Jarvis to open the Chrome browser
+5. Jarvis will perform the requested action and provide the result
 
 ---
 ## 🎯 Purpose
@@ -24,8 +25,21 @@ The purpose of Jarvis is to provide a basic virtual assistant that can respond t
 
 ---
 ## 🧩 Installation & Usage
-To run this application, you need to install the required libraries using pip. You can do this by running the following command: `pip install pyttsx3 SpeechRecognition requests PyQt6`. Once the libraries are installed, you can run the application using Python.
+To run Jarvis, you need to:
+```bash
+git clone https://github.com/DenysHandziichuk/Jarvis
+cd Jarvis
+```
+Then, install the required libraries using pip:
+```bash
+pip install pyttsx3 SpeechRecognition requests PyQt6
+```
+Once the libraries are installed, you can run the application using Python:
+```bash
+python main.py
+```
+Jarvis will be available at localhost, but it does not require a web interface as it is a desktop application.
 
 ---
 ## 🛠️ Tech Stack
-Jarvis is built using Python 3.x, PyQt6, pyttsx3, SpeechRecognition, datetime, requests, and Webbrowser. These technologies work together to provide a simple and intuitive virtual assistant experience.
+Jarvis is built using Python 3.x and PyQt6, along with other libraries such as pyttsx3, SpeechRecognition, and requests, to provide a simple and intuitive virtual assistant experience.
